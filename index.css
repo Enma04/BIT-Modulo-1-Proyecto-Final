@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(252, 246, 238);
+}
+div#contenedor-principal{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 2%;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.productos{
+    background-color: bisque;
+    border-radius: 14px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+}
+.productos:hover{
+    background-color: rgb(245, 203, 149);
+}
+.imagenes-sec-1{
+    padding-top: 6%;
+}
+ul#lista-nav{
+    display: inline-block;
+}
+.titulos-h1-header{
+    text-align: center;
+}
+.obj-lista-nav{
+    text-align: center;
+}
+.texto-info{
+    display: flex;
+    /*text-align: center;*/
+}
+.article-texto-info{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0.5%;
+    border-collapse: separate;
+}
+footer{
+    text-align: center;
+}
