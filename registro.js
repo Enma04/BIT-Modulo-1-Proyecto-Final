@@ -1,5 +1,11 @@
 var db = [] //db = DataBase
 
+function borrar(){
+    document.getElementById("nombre").value = "";
+    document.getElementById("correo").value = "";
+    document.getElementById("clave").value = "";
+}
+
 function guardarUsuario(){
     var nombre = document.getElementById("nombre").value
     var correo = document.getElementById("correo").value
@@ -7,6 +13,8 @@ function guardarUsuario(){
 
     db.push({name:nombre,mail:correo,pass:clave})
     localStorage.setItem("base", JSON.stringify(db))
+
+    borrar();
 }
 
 var cargarDatos = function(){

@@ -2,11 +2,14 @@ body{
     background-color: rgb(252, 246, 238);
 }
 div#contenedor-principal{
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     margin-top: 3%;
     padding: 2%;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.menu{
+    margin-top: 5%;
 }
 .productos{
     background-color: bisque;
@@ -23,9 +26,6 @@ div#contenedor-principal{
 ul#lista-nav{
     display: inline-block;
 }
-.titulos-h1-header{
-    text-align: center;
-}
 .obj-lista-nav{
     text-align: center;
 }
@@ -34,12 +34,22 @@ ul#lista-nav{
     /*text-align: center;*/
 }
 .article-texto-info{
-
+    text-align: justify;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 0.5%;
     border-collapse: separate;
 }
 footer{
+    background-color: bisque;
+    padding: 2%;
+}
+.h3-footer{
     text-align: center;
+}
+.info-footer{
+    text-align: justify;
+}
+.link-footer{
+    text-decoration: none;
 }
